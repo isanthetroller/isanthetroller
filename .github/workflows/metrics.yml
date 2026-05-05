@@ -27,7 +27,7 @@ jobs:
 
           # Coding habits (commit activity charts)
           plugin_habits: yes
-          plugin_habits_from: 200
+          plugin_habits_from: 100
           plugin_habits_days: 14
           plugin_habits_charts: yes
           plugin_habits_charts_type: classic
@@ -39,10 +39,9 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
-          plugin_languages_indepth: yes
 
           # Mastered technologies and topics (icon badges)
           plugin_topics: yes
           plugin_topics_mode: icons
-          plugin_topics_limit: 0
+          plugin_topics_limit: 15
           plugin_topics_sort: stars
