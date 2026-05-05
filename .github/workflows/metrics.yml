@@ -19,19 +19,12 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Manila
-          config_order: base.header, isocalendar, base.activity+community, habits, languages, topics, base.repositories
+          config_display: large
+          config_order: base.header, isocalendar, base.activity+community, languages, topics, base.repositories
 
           # 3D isometric contribution calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-
-          # Coding habits (commit activity charts)
-          plugin_habits: yes
-          plugin_habits_from: 100
-          plugin_habits_days: 14
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_trim: yes
 
           # Most used languages with details
           plugin_languages: yes
