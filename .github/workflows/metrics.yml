@@ -37,7 +37,7 @@ jobs:
           plugin_topics_limit: 15
           plugin_topics_sort: stars
 
-      # ── Right column: Achievements & activity ──
+      # ── Right column: Extra stats ──
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics-right.svg
@@ -47,17 +47,13 @@ jobs:
           base: ""
           config_timezone: Asia/Manila
 
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-
           plugin_notable: yes
           plugin_notable_repositories: yes
 
           plugin_stars: yes
           plugin_stars_limit: 3
 
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_filter: all
+          plugin_lines: yes
+          plugin_lines_sections: base, repositories
+
+          plugin_traffic: yes
