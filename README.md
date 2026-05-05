@@ -11,11 +11,11 @@
 
 ### 🧑‍💻 About Me
 
-- 🎓 Student at **National College of Science and Technology** — Dasmariñas, Cavite
-- 🐍 Primarily working with **Python**, **Dart/Flutter**, and **Java**
-- 🖥️ Focused on **Windows system tools**, **desktop automation**, and **mobile apps**
-- 🔧 Currently building a [**Unified PC Performance Manager**](https://github.com/isanthetroller/windows-performance-changer-ram-cleaner) — a safe alternative to bloatware PC optimizers
-- 🎮 Gamer who optimizes PCs for fun
+-  Student at **National College of Science and Technology** — Dasmariñas, Cavite
+-  Primarily working with **Python**, **Dart/Flutter**, and **Java**
+-  Focused on **Windows system tools**, **desktop automation**, and **mobile apps**
+-  Currently building a [**Unified PC Performance Manager**](https://github.com/isanthetroller/windows-performance-changer-ram-cleaner) — a safe alternative to bloatware PC optimizers
+-  Gamer who optimizes PCs for fun
 
 ---
 
