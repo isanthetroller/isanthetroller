@@ -12,16 +12,15 @@ jobs:
     permissions:
       contents: write
     steps:
-
-      # ── Left column: General info ──
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics-left.svg
+          filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: isanthetroller
           template: classic
-          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Manila
+          config_display: large
+          base: header, activity, community, repositories, metadata
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
@@ -37,23 +36,9 @@ jobs:
           plugin_topics_limit: 15
           plugin_topics_sort: stars
 
-      # ── Right column: Extra stats ──
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-right.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: isanthetroller
-          template: classic
-          base: ""
-          config_timezone: Asia/Manila
-
-          plugin_notable: yes
-          plugin_notable_repositories: yes
+          plugin_lines: yes
 
           plugin_stars: yes
           plugin_stars_limit: 3
 
-          plugin_lines: yes
-          plugin_lines_sections: base, repositories
-
-          plugin_traffic: yes
+          plugin_notable: yes
