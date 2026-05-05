@@ -27,15 +27,7 @@
 
 ---
 
-### 🏆 GitHub Trophies & Achievements
 
-<p align="center">
-  <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="90" title="Pull Shark" alt="Pull Shark">
-  <img src="https://github.githubassets.com/assets/yolo-default-be0bd14d0a1b.png" width="90" title="YOLO" alt="YOLO">
-  <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec83c70.png" width="90" title="Quickdraw" alt="Quickdraw">
-  <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-871c503cc09b.png" width="90" title="Pair Extraordinaire" alt="Pair Extraordinaire">
-  <img src="https://github.githubassets.com/assets/galaxy-brain-default-4a25af04c7d6.png" width="90" title="Galaxy Brain" alt="Galaxy Brain">
-</p>
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
