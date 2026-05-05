@@ -1,7 +1,7 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -14,27 +14,35 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: isanthetroller
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Manila
-          
-          # Isometric Calendar
+          config_order: base.header, isocalendar, base.activity+community, habits, languages, topics, base.repositories
+
+          # 3D isometric contribution calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          
-          # Coding Habits
+
+          # Coding habits (commit activity charts)
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_charts: yes
-          
-          # Languages
+          plugin_habits_charts_type: classic
+          plugin_habits_trim: yes
+
+          # Most used languages with details
           plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
           plugin_languages_colors: github
-          
-          # Lines of Code
-          plugin_lines: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_indepth: yes
+
+          # Mastered technologies and topics (icon badges)
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 0
+          plugin_topics_sort: stars
