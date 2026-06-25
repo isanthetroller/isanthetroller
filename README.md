@@ -37,7 +37,7 @@ I am a software developer specializing in desktop automation, network monitoring
 | :--- | :--- | :--- | :--- |
 | [**🛡️ NetSentinel**](https://github.com/isanthetroller/NetSentinel) | Intelligent local network monitoring, device fingerprinting, and threat analysis dashboard with interactive topology graphs. | Python, PyQt6, Scapy, SQLite3 | Active |
 | [**📝 SlideScribe**](https://github.com/isanthetroller/pptx-viewer) | Browser-native, client-side PPTX layout viewer and text extractor. Renders layouts completely on the client. | Vue 3, HTML5, Vanilla CSS | Active |
-| [**⚡ PC Performance Manager**](https://github.com/isanthetroller/windows-performance-manager) | A secure, transparent alternative to bloated optimization tools. Features memory management and cache cleaning. | Python, Win32 APIs | In Development |
+| [**⚡ PC Performance Manager**](https://github.com/isanthetroller/windows-performance-manager) | A secure, transparent alternative to bloated optimization tools. Features memory management and cache cleaning. | Python, Win32 APIs | Cancelled |
 
 ---
 
