@@ -15,6 +15,7 @@
 -  Primarily working with **Python**, **Dart/Flutter**, and **Java**
 -  Focused on **Windows system tools**, **desktop automation**, and **mobile apps**
 -  Currently building a [**Unified PC Performance Manager**](https://github.com/isanthetroller/windows-performance-manager) — a safe alternative to bloatware PC optimizers
+-  Recently created [**SlideScribe**](https://github.com/isanthetroller/pptx-viewer) — a client-side, browser-native PPTX layout viewer & text extractor
 -  Gamer who optimizes PCs for fun
 
 ---
@@ -22,7 +23,7 @@
 ### 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,dart,flutter,java,js,html,css,powershell&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,dart,flutter,java,js,html,css,vue,powershell&theme=dark" />
 </p>
 
 ---
