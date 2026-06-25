@@ -22,6 +22,9 @@ jobs:
           config_display: large
           base: header, activity, community, repositories, metadata
 
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
