@@ -9,18 +9,21 @@
 
 ---
 
-### 🧑‍💻 About Me
+### 💼 Profile & Focus
 
--  Student at **National College of Science and Technology** — Dasmariñas, Cavite
--  Primarily working with **Python**, **Dart/Flutter**, and **Java**
--  Focused on **Windows system tools**, **desktop automation**, and **mobile apps**
--  Currently building a [**Unified PC Performance Manager**](https://github.com/isanthetroller/windows-performance-manager) — a safe alternative to bloatware PC optimizers
--  Recently created [**SlideScribe**](https://github.com/isanthetroller/pptx-viewer) — a client-side, browser-native PPTX layout viewer & text extractor
--  Gamer who optimizes PCs for fun
+I am a software developer specializing in desktop automation, network monitoring/security dashboards, and cross-platform mobile applications. I focus on building secure, efficient, and transparent utilities.
 
 ---
 
-### 🛠️ Tech Stack
+### 🛠️ Tech Stack & Competencies
+
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | Python, Dart, Java, JavaScript, PowerShell, HTML/CSS |
+| **Frameworks & Libraries** | Flutter, PyQt6, Vue.js |
+| **Systems & Tools** | Git, Windows APIs, Automation Frameworks |
+
+<br/>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,dart,flutter,java,js,html,css,vue,powershell&theme=dark" />
@@ -28,20 +31,30 @@
 
 ---
 
+### 🚀 Featured Projects
 
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=isanthetroller&theme=dracula&no-frame=true&no-bg=true&margin-w=15" alt="isanthetroller's Trophies" />
-  </a>
-</p>
+| Project | Description | Tech Stack | Status |
+| :--- | :--- | :--- | :--- |
+| [**🛡️ NetSentinel**](https://github.com/isanthetroller/NetSentinel) | Intelligent local network monitoring, device fingerprinting, and threat analysis dashboard with interactive topology graphs. | Python, PyQt6, Scapy, SQLite3 | Active |
+| [**📝 SlideScribe**](https://github.com/isanthetroller/pptx-viewer) | Browser-native, client-side PPTX layout viewer and text extractor. Renders layouts completely on the client. | Vue 3, HTML5, Vanilla CSS | Active |
+| [**⚡ PC Performance Manager**](https://github.com/isanthetroller/windows-performance-manager) | A secure, transparent alternative to bloated optimization tools. Features memory management and cache cleaning. | Python, Win32 APIs | In Development |
 
 ---
 
-### 📊 GitHub Metrics
+### 📈 GitHub Stats
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td valign="top" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=isanthetroller&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="isanthetroller's GitHub Stats" width="100%" />
+    </td>
+    <td valign="top" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=isanthetroller&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="isanthetroller's Top Languages" width="100%" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="github-metrics.svg" alt="Metrics" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=isanthetroller&theme=tokyonight&custom_title=GitHub%20Contribution%20Activity&hide_border=true" alt="isanthetroller's Contribution Activity" width="100%" />
 </p>
 
-<sub>Infographics generated with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a></sub>
